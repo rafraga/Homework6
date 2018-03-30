@@ -1,0 +1,59 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Button Gif Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <body>
+    <center>
+        <div class="container jumbotron">
+            <h1 class="display-2">Button Gif Search</h1>
+            <p class="lead">Add custom buttons to search for gif's</p>
+        </div>
+    </center>
+
+        <div class="container card">
+            <h6 class="card-header" id="masthead"> Search Parameters</h6>
+
+
+        <div class="card-body">
+            <h6>Search Term: </h6>
+                <input type="text" id="search_box" class="form-control" value="">
+                <br>
+            <h6>Number of Images to Retrieve </h6>
+                <div class="form-group">
+                    <select class="form-control" id="sel1">
+                        <option class="three">5</option>
+                        <option class="five">10</option>
+                        <option class="ten">25</option>
+                    </select>
+                </div>
+               <br>
+                
+        <button id="submit" type="button" class="btn btn-primary">Submit</button>
+        <button id="clear_results" type="button" class="btn btn-primary">Clear</button>
+    
+   
+
+    </div></div></div><br>
+        <div class="container card">
+                <h6 class="card-header" id="masthead"> Buttons</h6>
+
+        <div class="card-body">
+        <center><div id="display_buttons"></div></center>
+        </div></div></div><br>
+
+    <div class="container card">
+        <h6 class="card-header" id="masthead">Results</h6>
+        <center><div id="display_results"></div></center>
+        </div></div>  
+        
+    </div> 
+</body>
+<script type="text/javascript" src="javascript/script.js"></script>
+</html>
